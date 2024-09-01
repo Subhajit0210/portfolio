@@ -1,8 +1,4 @@
-import React from "react";
-
-export const Hero = () => {
-  return (
-    <svg  viewBox="0 0 2484 852" fill="none" xmlns="http://www.w3.org/2000/svg">
+<svg width="2484" height="852" viewBox="0 0 2484 852" fill="none" xmlns="http://www.w3.org/2000/svg">
 <g filter="url(#filter0_d_1_14)">
 <mask id="path-1-outside-1_1_14" maskUnits="userSpaceOnUse" x="576" y="16" width="453" height="43" fill="black">
 <rect fill="white" x="576" y="16" width="453" height="43"/>
@@ -29,6 +25,3 @@ export const Hero = () => {
 </filter>
 </defs>
 </svg>
-
-  );
-};

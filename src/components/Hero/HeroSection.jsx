@@ -21,38 +21,13 @@ export default function HeroSection() {
           <p className="pb-2 ">
             Hey there, I am
             <span className="text-light-gray font-semibold ml-1">
-              Souvik Raj Singh
+              Subhajit Sikder
             </span>
-            , an upcoming Backend Developer Intern over at{" "}
-            <span className="text-light-gray font-semibold"> IbArts </span>.
-            Started off with front-end in tech, but soon realized that the
-            backend is where the real magic happens. Trying to get better at
-            backend everyday. Currently working on a Full stack Blog post
-            Website like {""}
-            <span className="text-light-gray font-semibold ">Medium </span>
-            using<span className="text-light-gray font-semibold ">
-              {" "}
-              Next
-            </span>{" "}
-            for front End,{" "}
-            <span className="text-light-gray font-semibold ">
-              {" "}
-              Cloudfare Workers
-            </span>{" "}
-            for Backend ,
-            <span className="text-light-gray font-semibold "> Zod</span> as
-            validation library,
-            <span className="text-light-gray font-semibold ">
-              {" "}
-              TypeScript
-            </span>{" "}
-            as langauge,
-            <span className="text-light-gray font-semibold "> Postgres</span> as
-            Database ,
-            <span className="text-light-gray font-semibold "> jwt</span> for
-            authentication and
-            <span className="text-light-gray font-semibold "> Prisma </span> as
-            ORM.
+            , an aspiring Data Scientist with a passion for transforming data into actionable insights. I specialize in <span className="text-light-gray font-semibold"> data analysis, machine learning, deep learning, and statistical modelling </span> using tools like
+            <span className="text-light-gray font-semibold"> Python </span>.
+            <br></br>
+            <br />
+            I have hands-on experience in analysing datasets, building predictive models, and visualizing complex information. I enjoy working on projects that allow me to apply my knowledge and creativity to real-world challenges. I am especially interested in the fields of some AI-driven solutions, where data can make a significant impact. {""}
           </p>
         </div>
         <div className="flex flex-row">
@@ -79,23 +54,8 @@ export default function HeroSection() {
         Latest Project
         <div className="pt-5 text-lg  xl:text-sm 2xl:text-lg space-y-">
           <p className="pb-2 ">
-            <span className="text-light-gray font-semibold">StacksAway</span> is
-            a curated list of programs for Students in Tech starting from
-            hackathons, mentorship programs, fellowship, and all kinds of
-            Student program to enhance the students experience in Tech. I am a{" "}
-            <span className="text-light-gray font-semibold">
-              Alpha Microsoft Student Ambassador
-            </span>{" "}
-            myself. The website is built using{" "}
-            <span className="text-light-gray font-semibold ">React js, </span>
-            <span className="text-light-gray font-semibold ">
-              Tailwind CSS
-            </span>{" "}
-            and{" "}
-            <span className="text-light-gray font-semibold ">
-              Contentful CMS{" "}
-            </span>{" "}
-            for content management in the backend.
+            <span className="text-light-gray font-semibold">Dashboard Hub</span> is
+            a collection of interactive dashboards for  <span className="text-light-gray font-semibold">  visualizing </span> and  <span className="text-light-gray font-semibold">analyzing data trends </span> and  <span className="text-light-gray font-semibold"> key metrics </span>. This repository includes custom-built dashboards for popular streaming platforms like Netflix, Amazon Prime Video and Disney+ Hotstar. Each dashboard provides deep insights into content performance, user engagement, and other important metrics.
           </p>
         </div>
       </div>
@@ -105,14 +65,14 @@ export default function HeroSection() {
             translateZ="50"
             className="text-xl font-semibold text-neutral-600 dark:text-white font-cabinG"
           >
-            StacksAway
+            Dashboard Hub
           </CardItem>
           <CardItem
             as="p"
             translateZ="60"
             className="text-neutral-500 text-sm max-w-sm mt-2 font-cabinG dark:text-neutral-300"
           >
-            Curated list of programs for Students in Tech
+            A collection of interactive dashboards for visualizing and analyzing data trends and key metrics
           </CardItem>
           <CardItem
             translateZ="100"
@@ -121,7 +81,7 @@ export default function HeroSection() {
             className="w-full mt-4"
           >
             <Image
-              src="/assets/picture.png"
+              src="/assets/dashboard.png"
               height="1000"
               width="1000"
               className="h-60 w-full object-cover rounded-xl group-hover/card:shadow-xl"
@@ -133,7 +93,7 @@ export default function HeroSection() {
               translateZ={20}
               translateX={-40}
               as={Link}
-              href="https://www.stacksaway.tech/"
+              href="https://github.com/Subhajit0210/Dashboard-Hub"
               className="px-4 py-2 rounded-xl text-xs font-normal font-cabinG font-semibold dark:text-white"
             >
               Check Out →

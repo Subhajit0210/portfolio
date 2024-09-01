@@ -42,7 +42,7 @@ export default function Page() {
       <Navbar />
       <div className="text-3xl xl:text-4xl px-8 xl:px-32 2xl:px-96 pt-14 pb-6 font-bold  font-cabinG ">
         <span className="inline-block md:inline">Contact </span>
-        <span className="block md:inline"> Souvik Raj Singh</span>
+        <span className="block md:inline"> Subhajit Sikder</span>
       </div>
       <div className="text-start px-8 xl:px-32 2xl:px-96  text-base xl:text-2xl pt-8 xl:pt-6 font-cabinG z-10">
         Email me
@@ -52,7 +52,7 @@ export default function Page() {
               className="underline text-light-gray font-sans cursor-pointer hover:underline  xl:text-base"
               onClick={copyToClipboard}
             >
-              souvikrajsingh02@gmail.com
+              tutul.subhajit@gmail.com
               {copied && (
                 <span className=" absolute bottom-full mb-2 animate-pulse text-light-gray text-xs ">
                   Copied to clipboard!{" "}

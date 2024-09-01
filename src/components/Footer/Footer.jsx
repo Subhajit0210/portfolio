@@ -7,14 +7,14 @@ import { FaLinkedin } from "react-icons/fa";
 
 export default function Footer() {
   const links = [
-    { href: "https://twitter.com/souviktwts", text: "Twitter/X: @souviktwts" },
+    // { href: "https://twitter.com/souviktwts", text: "Twitter/X: @souviktwts" },
     {
-      href: "https://github.com/souvikrajsingh/",
-      text: "GitHub: @souvikrajsingh",
+      href: "https://github.com/Subhajit0210",
+      text: "GitHub: @Subhajit0210",
     },
     {
-      href: "https://www.linkedin.com/in/souvik-raj-singh-9650bb187/",
-      text: "LinkedIn: @souvikrajsingh",
+      href: "https://www.linkedin.com/in/subhajit-sikder-96ba671ba/",
+      text: "LinkedIn: @Subhajit Sikder",
     },
   ];
   return (
@@ -59,21 +59,21 @@ export default function Footer() {
         </div>
         <div className="flex flex-row justify-end gap-6">
           <a
-            href="https://github.com/souvikrajsingh"
+            href="https://github.com/Subhajit0210"
             target="_blank"
             rel="noopener noreferrer"
           >
             <FaGithub size={25} />
           </a>
-          <a
+          {/* <a
             href="https://twitter.com/souviktwts"
             target="_blank"
             rel="noopener noreferrer"
           >
             <FaXTwitter size={25} />
-          </a>
+          </a> */}
           <a
-            href="https://www.linkedin.com/in/souvik-raj-singh-9650bb187/"
+            href="https://www.linkedin.com/in/subhajit-sikder-96ba671ba/"
             target="_blank"
             rel="noopener noreferrer"
           >
@@ -83,7 +83,7 @@ export default function Footer() {
       </div>
 
       <p className="font-cabinG flex py-6 justify-center text-xs ">
-        &copy; 2024 <span className="font-bold mx-2"> Souvik Raj Singh --</span>{" "}
+        &copy; 2024 <span className="font-bold mx-2"> Subhajit Sikder --</span>{" "}
         All Rights Reserved
       </p>
     </footer>
