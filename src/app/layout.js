@@ -15,9 +15,10 @@ export default function RootLayout({ children }) {
       <head>
         <title>{metadata.title}</title>
         <link rel="icon" href="/assets/logoSVG.svg" />
+        <GoogleAnalytics gaId="G-G1JEWRDBT0" />
       </head>
       <body className={inter.className}>{children}</body>
-      <GoogleAnalytics gaId="G-G1JEWRDBT0" />
+      
     </html>
   );
 }
