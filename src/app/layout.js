@@ -17,7 +17,7 @@ export default function RootLayout({ children }) {
         <link rel="icon" href="/assets/logoSVG.svg" />
       </head>
       <body className={inter.className}>{children}</body>
-      <GoogleAnalytics gaId="G-VV12GM0DCF" />
+      <GoogleAnalytics gaId="G-G1JEWRDBT0" />
     </html>
   );
 }
